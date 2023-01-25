@@ -1,0 +1,31 @@
+.card_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  padding: 20px;
+  margin: 2em;
+  color: #000;
+  background-color: rgb(255, 191, 0);
+  width: 600px;
+}
+
+.cardTitle, .cardDesc {
+  margin-bottom: 1em;
+}
+
+img {
+  height: 300px;
+  width: 350px;
+  object-fit: fill;
+  border-radius: 5%;
+}
+
+.example {
+  color: #000;
+  margin: 0
+}

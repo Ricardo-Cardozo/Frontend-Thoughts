@@ -1,0 +1,23 @@
+.submit_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.submit {
+  background-color: #000;
+  color: rgb(255, 191, 0);
+  border: 1px solid rgb(255, 191, 0);;
+  padding: 15px 20px;
+  font-size: 16px;
+  transition: .5s;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit:hover {
+  background-color: rgb(255, 191, 0);
+  color: #000;
+  border: 1px solid rgb(255, 191, 0);
+}

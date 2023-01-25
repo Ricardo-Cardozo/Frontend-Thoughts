@@ -1,0 +1,6 @@
+[data-color-mode*="dark"],
+[data-color-mode*="dark"] body {
+  --color-canvas-subtle: #161b22;
+  margin-bottom: 1em;
+}
+

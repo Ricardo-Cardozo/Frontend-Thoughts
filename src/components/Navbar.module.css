@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #000;
+  border-bottom: rgb(255, 191, 0) 1px solid;
+}
+
+.navbar h2 {
+  margin: 1em;
+  color: rgb(255, 191, 0);
+}
+
+.brand {
+  text-decoration: none;
+}
+
+.navbar ul {
+  display: flex;
+  margin-right: 3em;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar ul li .link {
+  text-decoration: none;
+  margin: .1em;
+  padding: 10px;
+  color: rgb(255, 191, 0);
+  font-weight: bold;
+  transition: .5s;
+  border: #000 1px solid;
+}
+
+.navbar .link:hover {
+  background-color: #000;
+  color: rgb(255, 191, 0);
+  border: rgb(255, 191, 0) 1px solid;
+}
+
+.span {
+  color: rgb(255, 89, 0);
+}

@@ -1,0 +1,9 @@
+.success_msg {
+  text-align: center;
+  background-color: rgb(145, 234, 145);
+  padding: 15px 20px;
+  width: 600px;
+  border: 1px solid green;
+  color: green;
+  margin: 1em;
+}
